@@ -15,6 +15,6 @@ export async function saveStorageCity(city: CityProps) {
   await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(city));
 }
 
-export async function removeStorageCity() {
+export async function removeStorageCity(newCity: CityProps) {
   await AsyncStorage.removeItem(STORAGE_KEY);
 }
