@@ -1,4 +1,4 @@
-import { mockCityApiResponse } from "_tests/mockCityApiResponse";
+import { mockCityApiResponse } from "../../_tests/mock/api/mockCityApiResponse";
 import { api } from "./api";
 import { getCityByNameService } from "./getCityByNameService";
 
