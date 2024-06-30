@@ -1,7 +1,7 @@
 import { saveStorageCity } from "@libs/asyncStorage/cityStorage"
 import { Routes } from "@routes/index"
 import { api } from "@services/api"
-import { mockWeatherAPIResponse } from "_tests/mock/api/mockWeatherApiResponse"
+import { mockWeatherAPIResponse } from "../../_tests/mock/api/mockWeatherApiResponse"
 import { act, render, screen, waitFor } from "../../_tests/utils/customRender"
 
 describe('Routes', () => {
