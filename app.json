@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "backgroundColor": "#13131A"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -34,6 +34,9 @@
       "eas": {
         "projectId": "ae85201e-704d-48c7-9324-d6b76a04bcbe"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
