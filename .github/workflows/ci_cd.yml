@@ -41,7 +41,7 @@ jobs:
           node-version: 18.x
       - name: Setup EAS
         uses: expo/expo-github-action@v8
-        width:
+        with:
           eas-version: latest
           packager: npm
           token: ${{secrets.EAS_EXPO_TOKEN}}
