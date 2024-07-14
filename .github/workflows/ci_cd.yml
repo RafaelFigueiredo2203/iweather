@@ -45,6 +45,9 @@ jobs:
           eas-version: latest
           packager: npm
           token: ${{secrets.EAS_EXPO_TOKEN}}
+          
+      - name: Install Dependencies
+        run: npm install
 
       - name: Build
         run: eas build --platform android --profile preview --non-interactive --no-wait
